@@ -1,0 +1,166 @@
+
+.mainbody
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header
+{
+	background: red;
+	width: 1200px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+
+.header span
+{
+	font-size: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+    line-height: 100px;
+    display: inline-block;
+}
+
+input:focus
+{
+	outline: none;
+}
+
+.header input
+{
+	height: 24px;
+    width: 250px;
+    border: 1px solid #ffffff;
+    line-height: 100px;
+    border-radius: 10px;
+}
+
+.footer
+{
+	margin-top: 20px;
+	background: black;
+	width: 1200px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer a
+{
+	text-align: left;
+    font-size: 14px;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+.maincontent
+{
+	margin: 10px, 0, 10px 0;
+}
+
+.index-left-main-conent
+{
+	width: 830px;
+	background: green;
+	float: left;
+}
+
+.index-right-conent
+{
+	width: 370px;
+	background: pink;
+	float: left;
+}
+
+.interest
+{
+	margin-left: 20px;
+	width: 350px;
+	height: 520px;
+	background-color: #451264;
+}
+
+.interest span
+{
+
+}
+
+.recommand
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 350px;
+	height: 520px;
+	background-color: #212341;
+}
+
+.tripscontent
+{
+
+}
+
+.tripscontent li
+{
+	width: 100px;
+    height: 24px;
+    font-size: 15px;
+    background-color: #fdadf3;
+    text-align: center;
+    padding-top: 6px;
+    float: left;
+}
+
+.tripscontent li:hover
+{
+	background-color: #bac231;
+}
+
+
+.basttrips ul li
+{
+	width: 810px;
+	height: 150px;
+	background: blue;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.basttrips img
+{
+	width: 180px;
+	height: 130px;
+	margin: 10px;
+	float: left;
+}
+
+.basttrips div
+{
+	float: left;
+	width: 580px;
+    height: 130px;
+	margin-top: 10px;
+	text-align: center;
+    
+}
+
+.basttrips span
+{
+	float: left;
+	font-weight: bold;
+	font-size: 18px;
+	width: 580px;
+    xheight: 130px;
+	margin-top: 10px;
+}
+
+.basttrips p
+{
+	float: left;
+	xfont-weight: bold;
+	font-size: 14px;
+	width: 580px;
+    xheight: 130px;
+	margin-top: 10px;
+}

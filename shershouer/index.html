@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>摄手网</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/comment.css" />	
+		<style type="text/css" >
+			
+		</style>
+		<script type="text/javascript" src="js/jquery-2.0.0.min.js" ></script>
+		<!--<script src="https://unpkg.com/vue"></script>-->
+		<script type="text/javascript" src="js/dist/vue.js"></script>
+	</head>
+	
+	<body class="mainbody">
+		<div class="header">
+				<span>
+				本站搜索
+				</span>
+				<input type="text" name="">	
+		</div>
+		<div id="maincontent" class="index-left-main-conent">
+			<div class="tripscontent">
+				<ul>
+					<li v-for="trip in trips" v-on:click="jumpToType(trip.name, trip.url)">
+					<!-- todo 接button事件，学vue使用数组-->
+				 		{{trip.name}}
+					</li>
+				</ul>
+			</div>
+			<div class='basttrips'>
+				<ul>
+					<li>
+						<img src="">
+						<div>
+							<span>网站诞生记</span>
+							<p>从0开始搭建网站，遇到的问题和相应的解决办法，以前的一些经验对现有问题的解决方法帮助</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="index-right-conent">
+			<div class="interest">
+				<span>
+					展板
+				</span>
+				<ui>
+					<li>
+						
+					</li>
+				</ui>
+			</div>
+			<div class="recommand">
+				<span>
+					画报
+				</span>
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="http://127.0.0.1:8020/shershouer/about.html">关于我们</a>
+			<a href="http://127.0.0.1:8020/shershouer/about.html">联系我们</a>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
